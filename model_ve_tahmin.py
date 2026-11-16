@@ -30,6 +30,7 @@ print(f"Eğitim: {X_train.shape} | Test: {X_test.shape}")
 for name, value in metrics.items(): print(f"{name}: {value:.3f}")
 
 def tahmin_et(bmi_standart, kan_basinc_standart, kan_biyobelirteci_s5):
+    """Standartlaştırılmış 3 girdiyle ilerleme skorunu tahmin eder."""
     row = pd.DataFrame([dict(zip(FEATURES, [bmi_standart, kan_basinc_standart, kan_biyobelirteci_s5]))])
     return float(model.predict(row)[0])
 
