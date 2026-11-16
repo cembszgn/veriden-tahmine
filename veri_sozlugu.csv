@@ -1,0 +1,5 @@
+Sütun,Tür,Açıklama
+bmi_standart,Sayısal,Standartlaştırılmış vücut kitle indeksi göstergesi (BMI)
+kan_basinc_standart,Sayısal,Standartlaştırılmış ortalama kan basıncı göstergesi (bp)
+kan_biyobelirteci_s5,Sayısal,Scikit-learn diabetes veri setindeki standartlaştırılmış s5 serum ölçümü
+ilerleme_skoru,Sayısal / hedef,Başlangıç ölçümünden bir yıl sonraki hastalık ilerleme skoru
